@@ -1,0 +1,19 @@
+programa {
+  
+  //Faça um algoritmo para calcular a área superficial de um cilindro (2*pi*r*h).
+
+  funcao inicio() {
+    inteiro r,h,;
+    real pi = 3.14 , aux;
+
+    escreva(" r ")
+		leia(r)
+
+    escreva("h ")
+		leia(h)   
+    
+    aux = (2*pi*r*h)
+
+    escreva(aux)
+  }
+}
