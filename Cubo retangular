@@ -1,0 +1,24 @@
+
+programa {
+  
+ // Faça um algoritmo para calcular a área de um cubo retangular ((h*l)+(h*b)+(l*b))*2.
+
+  funcao inicio() {
+    
+    inteiro h,b,l;
+    real aux;
+
+    escreva(" h ")
+		leia(h)
+
+    escreva(" b ")
+		leia(b)   
+    
+    escreva(" l ")
+		leia(l)
+    
+    aux = (((h*l)+(h*b)+(l*b))*2)
+
+    escreva(aux)
+  }
+}
