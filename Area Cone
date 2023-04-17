@@ -1,0 +1,22 @@
+
+programa {
+    inclua biblioteca Matematica --> mat 
+
+/*  Faça um algoritmo para calcular a área de um cone(pi*r*h)  */
+
+  funcao inicio() {
+    
+    inteiro r,h;
+    real pi = 3.14
+    real aux;
+
+    escreva(" r ")
+		leia(r)
+    escreva(" h ")
+		leia(h)
+
+    aux = (pi*r*h)
+
+    escreva(aux)
+  }
+}
