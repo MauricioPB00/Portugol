@@ -1,0 +1,21 @@
+
+
+programa {
+    inclua biblioteca Matematica --> mat 
+
+/*  Faça um algoritmo para calcular a área superficial de uma esfera (4*pi*r^2)  */
+
+  funcao inicio() {
+    
+    inteiro r;
+    real pi = 3.14
+    real aux;
+
+    escreva(" r ")
+		leia(r)
+
+    aux = (4*pi*(mat.potencia(r,2)))
+
+    escreva(aux)
+  }
+}
