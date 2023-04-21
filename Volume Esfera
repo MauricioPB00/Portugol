@@ -1,0 +1,20 @@
+
+programa {
+    inclua biblioteca Matematica --> mat 
+
+/*  Faça um algoritmo para calcular o volume de uma esfera(4/3*pi*r^3)  */
+
+  funcao inicio() {
+    
+    inteiro r;
+    real pi = 3.14
+    real aux;
+
+    escreva(" r ")
+		leia(r)
+
+     aux = (4 / 3) * pi * (mat.potencia(r, 3))
+
+    escreva(aux)
+  }
+}
