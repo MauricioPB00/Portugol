@@ -1,0 +1,23 @@
+
+programa {
+    inclua biblioteca Matematica --> mat 
+
+/*  Faça um algoritmo para calcular o volume de um cone (pi*r^2*h) / 3).  */
+
+  funcao inicio() {
+    
+    inteiro r,h;
+    real pi = 3.14
+    real aux;
+
+    escreva(" r ")
+		leia(r)
+
+  escreva(" h ")
+		leia(h)
+    aux = (pi*mat.potencia(r, 2)*h) / 3)
+
+    escreva(aux)
+  }
+}
+
