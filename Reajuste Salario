@@ -1,0 +1,22 @@
+programa {
+    inclua biblioteca Matematica --> mat 
+
+/*  Faça um algoritmo para calcular e exibir um salário reajustado em 23,75%. O salário atual deve ser fornecido pelo usuário.
+
+  */
+
+  funcao inicio() {
+    
+    inteiro s;
+    real pi = 3.14
+    real aux;
+
+    escreva(" s ")
+		leia(s)
+
+    aux =  s + ( s * 0.2375)
+ 
+    escreva(aux)
+  }
+}
+
