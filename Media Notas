@@ -1,0 +1,28 @@
+programa {
+    inclua biblioteca Matematica --> mat 
+
+/* 
+Faça um algoritmo que calcule a média de quatro números inteiros. Os números devem ser dados pelo usuário.
+*/
+
+  funcao inicio() {
+    
+   inteiro a,b,c,d,aux
+
+   escreva(" a " )
+   leia(a)
+
+  escreva(" b " )
+   leia(b)
+
+   escreva(" c " )
+  leia(c)
+
+  escreva(" d " )
+  leia(d)
+
+  aux = ( a + b + c + d ) / 4
+
+  escreva(aux)
+  }
+}
