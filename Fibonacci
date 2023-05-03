@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    
+    inteiro aux, prim, seg, ter;
+    
+    aux = 1;
+    prim = 1;
+    seg = 1;
+    ter = 0;
+
+    enquanto (100 >= aux){
+        prim = seg;
+        seg = ter;
+        ter = prim + seg;
+        aux = aux + 1
+
+    }
+    escreva(ter)
+  }
+}
