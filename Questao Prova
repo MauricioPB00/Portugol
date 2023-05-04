@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    inteiro a, b, i , j
+
+    i = 1
+    b = 0
+
+    escreva("a")
+    leia(a)
+
+    enquanto (i < a ){
+      j = i
+      enquanto(j<=a){
+          escreva('\n')
+          escreva("i ",i," j ", j , " b " , b)
+          j = j + 1
+      }
+      i = i + 1
+   }
+  b = a + (i*j)
+  escreva("\n --------")
+  escreva("i ",i," j ", j , " b " , b)
+  }
+}
