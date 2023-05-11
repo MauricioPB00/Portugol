@@ -1,0 +1,25 @@
+programa {
+    inclua biblioteca Matematica --> mat 
+
+/* 
+  Ler um valor e escrever se é positivo, negativo ou zero.
+*/
+
+  funcao inicio() {
+    
+   real numero;
+
+   escreva(" digite um numero ai " )
+   leia(numero)
+
+   se(numero > 0) {
+    escreva("maior")
+   }
+   se(numero == 0) {
+      escreva("0")
+      }
+   se(numero<0){
+    escreva("menor")
+   }
+  }
+}
