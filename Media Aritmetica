@@ -1,0 +1,31 @@
+programa {
+    inclua biblioteca Matematica --> mat 
+
+/* 
+  Ler as notas da 1a e 2a avaliação de um aluno. 
+  Calcular a média aritmética simples e 
+  escrever uma mensagem que diga se o aluno foi ou não aprovado 
+  (considerar que se a nota for igual ou maior que 7 o aluno é aprovado).
+   Escrever também a média calculada.
+
+*/
+
+  funcao inicio() {
+    
+   real nota, nota2, media;
+
+   escreva(" digite nota 1 " )
+   leia(nota)
+
+   escreva(" digite nota 2 " )
+   leia(nota2)
+
+  media = (nota + nota2) / 2
+   
+  se(media >=7){
+    escreva("aprovado ")
+  }
+  senao{
+    escreva("reprovado ")
+  }
+  escreva(media)
