@@ -1,0 +1,30 @@
+programa {
+    inclua biblioteca Matematica --> mat 
+
+/* 
+   Faça um algoritmo que leia o nome de um piloto, 
+   leia a distância percorrida em km
+   e o tempo que o piloto levou para percorrê-la (em horas).
+   O algoritmo deve calcular a velocidade média (velocidade = distancia / tempo) - em km/h, 
+   e exibir a seguinte frase:
+   A velocidade média do <nome do piloto> foi <velocidade media calculada> km/h.
+*/
+
+  funcao inicio() {
+    
+   cadeia nome;
+   real distancia, tempo, veloMedia
+   escreva(" qual seu nome piloto " )
+   leia(nome)
+
+   escreva(" qual a distancia em km " )
+   leia(distancia)
+
+   escreva(" quantas horas levou ? " )
+   leia(tempo)
+
+   veloMedia = ( distancia / tempo )
+
+  escreva("A velocidade média do ", nome , " foi  ", veloMedia , " km/h ")
+  }
+}
